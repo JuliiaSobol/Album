@@ -13,137 +13,119 @@
   <body>
 
   <!--nav-->	
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" id="navbarHeader">
     <div class="container">
-    <a class="navbar-brand" href="#album">Album</a>
-  </div>
+        <a class="navbar-brand" href="#album" id="album">Album</a>
+        <div class="dropdown text-right">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                <span class="caret"></span>
+            </button>
+    </div>
+      </div>
   </nav>
 <!--nav-->
 
-  <div class="container text-center">
-    <h1 class="display-4 mt-5">Album example</h1>
-    <p class="lead">Something short and leading about the collection below—its contents,
-     the creator, etc. Make it short and sweet, but not too short so folks don't
-      simply skip over it entirely.</p>
-  </div>
+      
+<!--jumbotron-->
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+    </div>
+    
+    <div class="text-center buttons">
+        <button type="button" class="btn btn-primary">Main call to action</button>
+        <button type="button" class="btn btn-secondary">Secondary action</button>
+    </div>
+</div>
+    
+    
 
-  <div class="text-center buttons">
-    <button type="button" class="btn btn-primary">Main call to action</button>
-    <button type="button" class="btn btn-secondary button2">Secondary action</button>
-  </div>
+    
 
 
 <!--images-->
-    
-    <div class=" container image-container">
-    <div class="row">
-      <div class="col-md-4">
-       <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/1.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/2.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
+    <div class="album text-muted">
+    <div class="container">
         
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/3.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-     </div> 
-
-      <div class="row">
-      <div class="col-md-4">
-       <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/4.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/5.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
+       <!--first row--> 
+      <div class="row">     
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/1.jpg" width="356" height="280" id="imagee">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
           
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/6.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-     </div> 
-
-      <div class="row">
-      <div class="col-md-4">
-       <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/7.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/8.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/2.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
           
-      <div class="col-md-4">
-        <div class="card img-thumbnail" style="width: 20rem;">
-        <img class="card-img-top img-fluid" src="images/9.jpg">
-        <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        </div>
-      </div>
-     </div> 
-      </div>
- 
-  <!--images-->
-      <div class="container">
-        <div class="footer">
-        <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/3.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+  </div>
+
+      
+      <!--second row-->
+      <div class="row">
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/4.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/5.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/6.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+  </div>
+
+      
+      <!--third row-->
+      <div class="row">
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/7.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/8.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+    <div class="col-md-4 img-thumbnail">
+      <img src="images/9.jpg" width="356" height="280">
+        <p class="text-muted">Figures in the movie "Athletes" are entirely subordinated to the task of color and rhythmic organization of the composition, alienated from the real meaning of being</p>
+    </div>
+          
+  </div>
+</div>
+</div>
+
+ <!--images-->
+      
+      
+ <!--Footer-->  
+<footer class="footer text-muted">
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="float-right">
+            <a href="#album">Back to top</a>
+            </div>
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
           <p>New to Bootstrap?<a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"> Visit the homepage</a> or read our <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">getting started link</a>.</p>
             
-        <div class="text-right">
-    <button type="button" class="btn btn-link">Back to top</button>
-          </div>
         </div>
-      </div>
+    </div>
+</footer>
   
 
   </body>
